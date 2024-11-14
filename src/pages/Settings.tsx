@@ -16,13 +16,13 @@ export const Settings = () => {
         >
           <ArrowLeft size={24} />
         </button>
-        <h1 className="text-xl font-bold ml-2">Prompter Settings</h1>
+        <h1 className="text-xl font-bold ml-2">Configuration du prompter</h1>
       </div>
 
       <div className="space-y-6">
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Rotation Interval (seconds)
+            Minuteur (secondes)
           </label>
           <input
             type="number"
@@ -37,9 +37,9 @@ export const Settings = () => {
           />
         </div>
 
-        <div>
+         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Font Size
+            Taille de la police
           </label>
           <input
             type="range"
@@ -52,8 +52,8 @@ export const Settings = () => {
             className="w-full"
           />
           <div className="flex justify-between text-sm text-gray-500">
-            <span>Small</span>
-            <span>Large</span>
+            <span>Petit</span>
+            <span>Grand</span>
           </div>
         </div>
 

@@ -16,11 +16,11 @@ const PrompterSong: React.FC<{
       className="flex-1 p-6 rounded-lg m-2 cursor-pointer"
       style={{
         backgroundColor: CATEGORY_COLORS[song.category],
-        minHeight: '30vh',
+        minHeight: '20vh',
       }}
     >
       <div className="h-full flex flex-col justify-center items-center text-center">
-        <h2 className="text-2xl font-bold mb-2 text-black">
+        <h2 className="text-7xl font-bold mb-2 text-black">
           {song.mnemonic || song.title}
         </h2>
       </div>
@@ -79,7 +79,7 @@ export const Prompter = () => {
           onClick={() => setShowLyrics(null)}
           className="mb-6 text-white"
         >
-          ← Back to Prompter
+          ← Retour au Prompter
         </button>
         <h2 className="text-2xl font-bold mb-4">{showLyrics.title}</h2>
         <pre className="whitespace-pre-wrap font-sans">

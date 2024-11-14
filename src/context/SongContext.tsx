@@ -13,7 +13,7 @@ interface SongContextType {
 
 const defaultSettings: PrompterSettings = {
   rotationInterval: 120,
-  fontSize: 24,
+  fontSize: 32,
   isDarkMode: true,
   useHighContrast: false,
 };
