@@ -17,7 +17,7 @@ export const Navigation = () => {
           }`}
         >
           <Home size={24} />
-          <span className="text-xs">Home</span>
+          <span className="text-xs">Accueil</span>
         </Link>
         <Link
           to="/add"
@@ -26,7 +26,7 @@ export const Navigation = () => {
           }`}
         >
           <Plus size={24} />
-          <span className="text-xs">Add Song</span>
+          <span className="text-xs">Ajout Chant</span>
         </Link>
         <Link
           to="/prompter"

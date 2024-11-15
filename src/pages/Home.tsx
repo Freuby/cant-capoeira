@@ -20,7 +20,7 @@ const CategorySection: React.FC<{
           {title}
         </h2>
         <span className="text-sm text-gray-500">
-          {categorySongs.length} songs
+          {categorySongs.length} chant(s)
         </span>
       </div>
       <div className="space-y-4">
@@ -36,7 +36,7 @@ export const Home = () => {
   return (
     <div className="p-4 pb-20">
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-2xl font-bold">Capoeira Songs</h1>
+        <h1 className="text-2xl font-bold">Cantigas Capoeira</h1>
         <Link
           to="/settings"
           className="p-2 hover:bg-gray-100 rounded-full"
