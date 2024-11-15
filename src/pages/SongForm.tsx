@@ -38,7 +38,7 @@ export const SongForm = () => {
   };
 
   const handleDelete = () => {
-    if (id && window.confirm('Are you sure you want to delete this song?')) {
+    if (id && window.confirm('Êtes-vous sûr de vouloir effacer ce chant ?')) {
       deleteSong(id);
       navigate('/');
     }
@@ -53,14 +53,14 @@ export const SongForm = () => {
         >
           <ArrowLeft size={24} />
         </button>
-        <h1 className="text-xl font-bold">{id ? 'Edit Song' : 'Add New Song'}</h1>
+        <h1 className="text-xl font-bold">{id ? 'Modifier un chant' : 'Ajouter un chant'}</h1>
         <div className="w-10" />
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Title *
+            Titre *
           </label>
           <input
             type="text"
@@ -89,7 +89,7 @@ export const SongForm = () => {
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Mnemonic Phrase
+            Phrase Mnemonic
           </label>
           <input
             type="text"
@@ -101,7 +101,7 @@ export const SongForm = () => {
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Lyrics
+            Paroles
           </label>
           <textarea
             value={formData.lyrics || ''}
@@ -113,7 +113,7 @@ export const SongForm = () => {
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Media Link
+            Lien web
           </label>
           <input
             type="url"
@@ -129,7 +129,7 @@ export const SongForm = () => {
             className="flex-1 bg-blue-600 text-white py-3 rounded-lg font-medium flex items-center justify-center space-x-2"
           >
             <Save size={20} />
-            <span>Save Song</span>
+            <span>Sauver le chant</span>
           </button>
           {id && (
             <button
