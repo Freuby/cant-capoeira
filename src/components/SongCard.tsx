@@ -40,7 +40,7 @@ export const SongCard: React.FC<SongCardProps> = ({ song, showActions = true }) 
           className="inline-flex items-center text-sm text-blue-600 mt-2"
         >
           <Music size={16} className="mr-1" />
-          View Media
+          Voir Media
         </a>
       )}
     </div>

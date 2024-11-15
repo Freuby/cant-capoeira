@@ -73,7 +73,7 @@ export const SongForm = () => {
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Category
+            Categorie
           </label>
           <select
             value={formData.category}
@@ -89,7 +89,7 @@ export const SongForm = () => {
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Phrase Mnemonic
+            Phrase Mnémonique
           </label>
           <input
             type="text"
